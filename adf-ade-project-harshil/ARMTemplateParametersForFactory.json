@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-ade-project-harshil"
+		},
+		"LS_parquet_Sqlserver_accountKey": {
+			"value": ""
+		},
+		"LS_ADB_dev_properties_typeProperties_existingClusterId": {
+			"value": "0919-131200-05rhg1i0"
+		},
+		"LS_kv_properties_typeProperties_baseUrl": {
+			"value": "https://kv-ade-project-harshil1.vault.azure.net/"
+		},
+		"LS_onpremsqlserver_properties_typeProperties_server": {
+			"value": "LAPTOP-G9IMRMTT"
+		},
+		"LS_onpremsqlserver_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2019"
+		},
+		"LS_onpremsqlserver_properties_typeProperties_userName": {
+			"value": "hpt"
+		},
+		"LS_parquet_Sqlserver_properties_typeProperties_url": {
+			"value": "https://adlsadeprojectdev.dfs.core.windows.net/"
+		}
+	}
+}
