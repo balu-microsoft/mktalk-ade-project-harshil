@@ -134,6 +134,10 @@
 				"userProperties": [],
 				"typeProperties": {
 					"notebookPath": "/Shared/bronze+to+silver"
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_ADB_dev",
+					"type": "LinkedServiceReference"
 				}
 			},
 			{
@@ -157,6 +161,10 @@
 				"userProperties": [],
 				"typeProperties": {
 					"notebookPath": "/Shared/silver+to+gold"
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_ADB_dev",
+					"type": "LinkedServiceReference"
 				}
 			}
 		],
