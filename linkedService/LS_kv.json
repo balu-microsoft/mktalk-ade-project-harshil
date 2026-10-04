@@ -1,0 +1,11 @@
+{
+	"name": "LS_kv",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-ade-project-harshil1.vault.azure.net/"
+		}
+	}
+}

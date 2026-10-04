@@ -1,0 +1,15 @@
+{
+	"name": "adf-ade-project-harshil",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cc29802f-3f03-479a-bb0d-70a66ef630cc",
+		"tenantId": "20c7a25b-d680-4eb9-85b7-221d99249adb"
+	}
+}

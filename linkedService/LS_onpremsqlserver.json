@@ -1,0 +1,28 @@
+{
+	"name": "LS_onpremsqlserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-G9IMRMTT",
+			"database": "AdventureWorksLT2019",
+			"encrypt": "optional",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "hpt",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_kv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sqlpass"
+			}
+		},
+		"connectVia": {
+			"referenceName": "SHIR-sqlserver-LAPTOP-G9IMRMTT",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
